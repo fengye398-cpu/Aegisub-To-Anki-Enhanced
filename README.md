@@ -9,6 +9,7 @@
 
 5.参考项目:https://github.com/zhaohanim/AegisubToAnki
 
-<img width="416" height="346" alt="image" src="https://github.com/user-attachments/assets/19af5c00-873c-4dcd-9c57-89143fb9b7d6" />
+<img width="929" height="778" alt="image" src="https://github.com/user-attachments/assets/09e17533-12d9-45b6-b9c7-6d0f1b0f486f" />
+
 <img width="1226" height="933" alt="image" src="https://github.com/user-attachments/assets/e412ed92-7e8d-4122-8a1c-088e4e83ebfb" />
 
