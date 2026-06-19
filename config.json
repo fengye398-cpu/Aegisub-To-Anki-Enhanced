@@ -1,0 +1,92 @@
+{
+    "deck_name": "01 Hectors arrival_video",
+    "model_name": "movies2anki - subs2srs (video)",
+    "extraction_mode": "audio_snapshot_video",
+    "video_crf": 24,
+    "video_preset": "veryfast",
+    "audio_bitrate": "128k",
+    "snapshot_quality": 3,
+    "show_window": false,
+    "field": {
+        "Audio": "Audio",
+        "Video": "Video",
+        "SnapShot": "Snapshot",
+        "Expression": "Expression",
+        "Meaning": "Meaning",
+        "Note": "Notes"
+    }
+}
+
+// ============================================================
+// 配置说明
+// ============================================================
+//
+// deck_name: Anki牌组名称（必须已存在，区分大小写）
+//   示例: "日语学习", "英语电影", "Vocabulary"
+//
+// model_name: Anki笔记模板名称（必须已存在，区分大小写）
+//   示例: "movies2anki - subs2srs (image)", "字幕卡片", "Basic"
+//
+// extraction_mode: 媒体提取模式（修改后立即生效，无需重启Aegisub）
+//   - "audio" = 仅提取音频（最快，适合纯音频学习）
+//   - "audio_snapshot" = 提取音频+截图（较快，需要画面参考）
+//   - "audio_snapshot_video" = 提取音频+截图+视频（较慢，完整体验）
+//
+// video_crf: 视频质量参数（0-51，数值越小质量越高，文件越大）
+//   推荐值: 18-28，默认24（平衡质量和文件大小）
+//   - 18 = 高质量（文件较大）
+//   - 24 = 标准质量（推荐）
+//   - 28 = 较低质量（文件较小）
+//
+// video_preset: 视频编码速度预设（越慢质量越好，编码时间越长）
+//   可选值: ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow
+//   推荐值: veryfast（默认）, fast, medium
+//
+// audio_bitrate: 音频比特率（越高音质越好，文件越大）
+//   可选值: 64k, 96k, 128k, 192k, 256k
+//   推荐值: 128k（默认）, 192k
+//
+// snapshot_quality: 截图质量参数（1-31，数值越小质量越高）
+//   推荐值: 2-5，默认3
+//
+// show_window: 显示处理窗口（调试用）
+//   - false = 静默模式（默认，窗口自动关闭）
+//   - true = 显示窗口（可查看详细输出，需手动关闭）
+//
+// field: 字段映射（左侧键名不要改，右侧值改为你的Anki模板字段名）
+//   Audio - 音频字段（格式: [sound:文件名.mp3]）
+//   Video - 视频字段（格式: 文件名.mp4，仅audio_snapshot_video模式有效）
+//   SnapShot - 截图字段（格式: <img src=文件名.jpg>，仅audio_snapshot和audio_snapshot_video模式有效）
+//   Expression - 原文字段（字幕文本\N之前的部分，如"私はペッパピック"）
+//   Meaning - 译文字段（字幕文本\N之后的部分，如"我是佩奇"）
+//   Note - 笔记字段（当前版本未启用）
+//
+// ⚠️ 字幕文本分割规则：
+//   - 有\N分隔符: "原文\N译文" → Expression="原文", Meaning="译文"
+//   - 无\N分隔符: "单行文本" → Expression="单行文本", Meaning=""
+//   - 多个\N: "原文\N译文\N额外" → Expression="原文", Meaning="译文<br>额外"
+//
+// ============================================================
+// ⚠️ 重要提示：模板字段缓存
+// ============================================================
+//
+// 为了提升制卡速度，程序会缓存Anki模板的字段信息到本地文件：
+//   缓存文件位置: toanki_temp/model_fields_cache.json
+//   缓存有效期: 24小时自动过期
+//
+// 如果您修改了Anki模板的字段（添加、删除或重命名字段），
+// 需要手动清理缓存，否则可能导致字段不匹配错误：
+//
+//   方法1（推荐）: 删除缓存文件
+//     Windows: 删除 C:\Users\用户名\AppData\Roaming\Aegisub\toanki_temp\model_fields_cache.json
+//     或删除: D:\Program Files\Aegisub\toanki_temp\model_fields_cache.json
+//
+//   方法2: 等待24小时自动过期（不推荐，时间太长）
+//
+// 常见场景示例：
+//   - 在Anki中添加了新字段 "Source" → 需要删除缓存
+//   - 将字段 "Expression" 重命名为 "Sentence" → 需要删除缓存
+//   - 删除了某个字段 → 需要删除缓存
+//   - 仅修改config.json的field映射值（右侧） → 无需删除缓存
+//
+// ============================================================

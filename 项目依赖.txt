@@ -1,0 +1,12 @@
+1.更新pip最新版本：python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+2.安装项目所需依赖：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests==2.31.0 pyinstaller==6.16.0 psutil==7.1.3
+
+3.项目文件根目录下输入CMD创建虚拟环境：python -m venv .venv
+
+4.在项目文件根目录下输入CMD激活虚拟环境中：.venv\Scripts\activate
+
+5.项目开发python版本：python 3.10.10
+
+6.打包命令：python "D:\Program Files\Aegisub\toanki_temp\build_toanki.py"
+
