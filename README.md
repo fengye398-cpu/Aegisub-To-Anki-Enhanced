@@ -9,7 +9,18 @@
 
 5.参考项目:https://github.com/zhaohanim/AegisubToAnki
 
+#PC端效果展示
 <img width="929" height="778" alt="image" src="https://github.com/user-attachments/assets/09e17533-12d9-45b6-b9c7-6d0f1b0f486f" />
-
 <img width="964" height="932" alt="image" src="https://github.com/user-attachments/assets/89d780bb-b497-4d06-858a-5d19ac0830e3" />
+
+#安卓端效果展示
+
+<img width="410" height="922" alt="安卓端正面" src="https://github.com/user-attachments/assets/a9557fec-ffa4-4359-9bb6-42e65723f777" />
+
+<img width="413" height="922" alt="安装端反面" src="https://github.com/user-attachments/assets/65ec8e11-012e-4a6f-8a7f-443b762e2bbb" />
+
+
+
+
+
 
