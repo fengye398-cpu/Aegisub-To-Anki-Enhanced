@@ -15,9 +15,8 @@
 
 # 安卓端效果展示
 
-<img width="410" height="922" alt="安卓端正面" src="https://github.com/user-attachments/assets/a9557fec-ffa4-4359-9bb6-42e65723f777" />
-
-<img width="413" height="922" alt="安装端反面" src="https://github.com/user-attachments/assets/65ec8e11-012e-4a6f-8a7f-443b762e2bbb" />
+<img width="410" height="922" alt="Screenshot_2026-10-21-19-17-00-777_com ichi2 anki_0_2026-10-21_19-17-22_509" src="https://github.com/user-attachments/assets/d9e3f045-7f5b-403d-b591-0b19571f028b" />
+<img width="410" height="922" alt="Screenshot_2026-10-21-19-17-12-212_com ichi2 anki_1_2026-10-21_19-17-22_518" src="https://github.com/user-attachments/assets/f084d240-982d-4063-ba4f-33ca7cdc76a9" />
 
 
 
