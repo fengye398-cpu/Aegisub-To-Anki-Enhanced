@@ -15,8 +15,10 @@
 
 # 安卓端效果展示
 
-<img width="410" height="922" alt="Screenshot_2026-10-21-19-17-00-777_com ichi2 anki_0_2026-10-21_19-17-22_509" src="https://github.com/user-attachments/assets/d9e3f045-7f5b-403d-b591-0b19571f028b" />
-<img width="410" height="922" alt="Screenshot_2026-10-21-19-17-12-212_com ichi2 anki_1_2026-10-21_19-17-22_518" src="https://github.com/user-attachments/assets/f084d240-982d-4063-ba4f-33ca7cdc76a9" />
+<img width="410" height="922" alt="Screenshot_2026-11-09-16-25-49-515_com ichi2 anki" src="https://github.com/user-attachments/assets/e64216fb-2873-41a8-935e-97f5f5bb6fe6" />
+
+<img width="410" height="922" alt="Screenshot_2026-11-09-16-26-22-364_com ichi2 anki" src="https://github.com/user-attachments/assets/03dac76f-a406-40b7-af88-93a9389a474a" />
+
 
 
 
